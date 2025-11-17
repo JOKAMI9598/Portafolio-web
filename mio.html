@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analista de Datos Jr - Portafolio</title>
+  <style>
+    /* Estilo general */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* Encabezado */
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Barra de navegación */
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      position: relative;
+    }
+
+    /* Botón hamburguesa */
+    .menu-toggle {
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+      display: none; /* Oculto en escritorio */
+    }
+
+    /* Menú normal */
+    .menu {
+      text-align: center;
+    }
+
+    .menu a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .menu a:hover {
+      color: #1abc9c;
+    }
+
+    /* Secciones */
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #1abc9c;
+      padding-bottom: 5px;
+    }
+
+    /* Proyectos como tarjetas */
+    .proyecto {
+      background-color: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .proyecto h3 {
+      margin-top: 0;
+      color: #34495e;
+    }
+
+    .proyecto a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #1abc9c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .proyecto a:hover {
+      text-decoration: underline;
+    }
+
+    /* Pie de página */
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .menu {
+        display: none; /* Oculto por defecto en móviles */
+        flex-direction: column;
+        background-color: #34495e;
+        padding: 10px;
+      }
+
+      .menu a {
+        margin: 10px 0;
+        display: block;
+      }
+
+      .menu-toggle {
+        display: block; /* Visible en móviles */
+      }
+
+      .menu.active {
+        display: flex; /* Se muestra cuando se activa */
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Jonathan Chavero Rivas</h1>
+    <p>Analista de Datos Jr | SQL | Excel | Tableau | R | Python</p>
+  </header>
+
+  <!-- Navegación con menú hamburguesa -->
+  <nav>
+    <span class="menu-toggle">☰</span>
+    <div class="menu">
+      <a href="#acerca-de-mi">Acerca de mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contáctame</a>
+    </div>
+  </nav>
+
+  <!-- Presentación -->
+  <section id="acerca-de-mi">
+    <h2>Acerca de mí</h2>
+    <p>Soy un analista de datos en formación con experiencia en SQL (BigQuery), Excel y Google Sheets, además de visualización de datos con Tableau. Me apasiona trabajar con datos y ayudar a las personas y empresas a tomar mejores decisiones.</p>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class="proyecto">
+      <h3>Dashboard en Tableau</h3>
+      <p>Analicé datos de colorimetría en la producción diaria de mi trabajo, con el objetivo de garantizar la calidad del producto terminado antes de enviarlo al cliente.</p>
+      <a href="https://public.tableau.com/app/profile/jonathan.chavero.rivas/vizzes" target="_blank">Ver proyecto</a>
+    </div>
+
+    <div class="proyecto">
+      <h3>Limpieza de base de datos en almacén</h3>
+      <p>Realicé la limpieza de datos de entradas y salidas del almacén en Python, utilizando Pandas y Matplotlib para generar visualizaciones.</p>
+      <a href="https://github.com/JOKAMI9598" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="proyecto">
+      <h3>Análisis de ventas e-commerce</h3>
+      <p>Proyecto personal en el que usé SQL y Google Sheets para analizar tendencias de ventas y generar reportes automatizados.</p>
+      <a href="https://github.com/JOKAMI9598/proyecto-ecommerce" target="_blank">Ver código</a>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contáctame</h2>
+    <p>📧 
+      <a href="mailto:jonathanchavero@outlook.com?subject=Consulta%20sobre%20tu%20portafolio&body=Hola%20Jonathan%2C%20me%20interesa%20tu%20trabajo%20como%20analista%20de%20datos.%20¿Podrías%20contarme%20más%20sobre%20tus%20proyectos%20y%20experiencia%3F">
+        jonathanchavero@outlook.com
+      </a>
+    </p>
+    <p>🔗 <a href="https://www.linkedin.com/in/jonathan-chavero-rivas-1781a2107" target="_blank">LinkedIn</a></p>
+    <p>💻 <a href="https://github.com/JOKAMI9598" target="_blank">GitHub</a></p>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Jonathan Chavero Rivas - Analista de Datos Jr - Portafolio</p>
+  </footer>
+
+  <!-- Script para menú hamburguesa -->
+  <script>
+    const toggle = document.querySelector(".menu-toggle");
+    const menu = document.querySelector(".menu");
+
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
+
