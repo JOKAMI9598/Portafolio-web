@@ -39,6 +39,6 @@ Contribuir en proyectos donde pueda aportar mi enfoque híbrido: **organización
 
 ## 📫 Contacto
 - 📧 jonathanchavero@outlook.com  
-- 🔗 [LinkedIn](https://linkedin.com/in/tuusuario)  
+- 🔗 [LinkedIn](www.linkedin.com/in/jonathan-chavero-rivas-1781a2107)  
 - 🌐 [Portafolio Web](https://tuusuario.github.io/portafolio-web/)  
 
